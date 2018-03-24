@@ -22,7 +22,7 @@ When user tries to enter your Vue Storefront checkout:
 yarn install vsf-external-checkout --save
 ````
 2. Add external checkout address to your `config/local.json` file.
-````json
+````js
   "external-checkout": {
     "url" : "your_CMS_checkout_url"
   }
