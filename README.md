@@ -23,7 +23,7 @@ yarn install vsf-external-checkout --save
 ````
 2. Add external checkout address to your `config/local.json` file.
 ````js
-"external-checkout": {
+"externalCheckout": {
   "url" : "your_CMS_checkout_url"
 }
 ````
