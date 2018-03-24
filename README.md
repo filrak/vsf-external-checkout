@@ -30,7 +30,7 @@ yarn install vsf-external-checkout --save
 3. Enable cart synchronization for your Vue Storefront instance in `config/local.json`
 ````
 cart": {
-  "synchronize": false,
+  "synchronize": true,
   ...
 }
 ````
