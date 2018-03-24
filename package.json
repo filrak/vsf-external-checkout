@@ -1,0 +1,19 @@
+{
+  "name": "vsf-external-checkout",
+  "version": "1.0.0",
+  "description": "External checkout extension for Vue Storefront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filrak/vsf-external-checkout.git"
+  },
+  "author": "Filip Rakowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filrak/vsf-external-checkout/issues"
+  },
+  "homepage": "https://github.com/filrak/vsf-external-checkout#readme"
+}
