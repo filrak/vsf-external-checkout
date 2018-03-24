@@ -1,11 +1,11 @@
 const EXTENSION_KEY = 'external-checkout'
 
 export default function (app, router, store, config) {
-  const externalCheckoutUrl = config.externalCheckout.url
+  const cmsUrl = config.externalCheckout.cmsUrl
 
   router.beforeEach((to, from, next) => {
     if (to.name === 'checkout') {
-      window.location.replace(externalCheckoutUrl + '?userId=' + store.state.user.token + '&cartId=' + store.state.cart.cartServerToken)
+      window.location.replace(cmsUrl + '/vue/cart/sync/token/' + store.state.user.token + '/cart/' + store.state.cart.cartServerToken)
       next()
     }
   })

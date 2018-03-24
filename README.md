@@ -21,10 +21,10 @@ When user tries to enter your Vue Storefront checkout:
 ````
 yarn install vsf-external-checkout --save
 ````
-2. Add external checkout address to your `config/local.json` file.
+2. Add CMS address to your `config/local.json` file.
 ````js
 "externalCheckout": {
-  "url" : "your_CMS_checkout_url"
+  "cmsUrl" : "your_CMS_url"
 }
 ````
 3. Enable cart synchronization for your Vue Storefront instance in `config/local.json`
