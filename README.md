@@ -24,7 +24,7 @@ yarn install vsf-external-checkout --save
 2. Add CMS address to your `config/local.json` file.
 ````js
 "externalCheckout": {
-  "cmsUrl" : "https://yourcms.com"
+  "cmsUrl" : "https://yourcmsaddress.com"
 }
 ````
 3. Enable cart synchronization for your Vue Storefront instance in `config/local.json`
