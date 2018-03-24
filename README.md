@@ -13,7 +13,7 @@ If you want to integrate this extension with different CMS just create an issue 
 
 When user tries to enter your Vue Storefront checkout:
 1. The extension synchronizes cart and user data with your backend CMS
-2. User is redirected to your CMS checkout.
+2. User is redirected to your CMS checkout (extension overrides `/checkout` route).
 
 ## Installation
 
