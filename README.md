@@ -46,4 +46,4 @@ export default [
 
 If you want to integrate this extension with your backend CMS make sure that entering `{your_CMS_url}/vue/cart/sync/token/{user-token}/cart/{cart_token}` will do the following:
 1. Synchronzie cart and user data between Vue Storefront and your CMS
-2. 
+2. Redirect user to external checkout
