@@ -27,7 +27,14 @@ yarn install vsf-external-checkout --save
   "url" : "your_CMS_checkout_url"
 }
 ````
-3. Register the extension in `src/extensions/index.js` file
+3. Enable cart synchronization for your Vue Storefront instance in `config/local.json`
+````
+cart": {
+  "synchronize": false,
+  ...
+}
+````
+4. Register the extension in `src/extensions/index.js` file
 ````js
 export default [
   // other extensions
