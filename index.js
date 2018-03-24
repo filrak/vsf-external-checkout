@@ -6,8 +6,9 @@ export default function (app, router, store, config) {
   router.beforeEach((to, from, next) => {
     if (to.name === 'checkout') {
       window.location.replace(cmsUrl + '/vue/cart/sync/token/' + store.state.user.token + '/cart/' + store.state.cart.cartServerToken)
-      next()
-    }
+    } else {
+      next()   
+    } 
   })
 
   return {

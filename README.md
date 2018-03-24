@@ -8,7 +8,7 @@ This plugin requires cart and user sync with your backend CMS.
 
 * [Magento 2](https://github.com/DivanteLtd/magento2-external-checkout)
 
-If you want to integrate this extension with different CMS just create an issue in [Vue Storefront](https://github.com/DivanteLtd/vue-storefront) repo to get our support.
+
 ## How it works?
 
 When user tries to enter your Vue Storefront checkout:
@@ -40,3 +40,10 @@ export default [
   // other extensions
   require('vsf-external-checkout/index.js'),
 ]
+````
+
+## How to integrate
+
+If you want to integrate this extension with your backend CMS make sure that entering `{your_CMS_url}/vue/cart/sync/token/{user-token}/cart/{cart_token}` will do the following:
+1. Synchronzie cart and user data between Vue Storefront and your CMS
+2. 
