@@ -3,8 +3,10 @@
 With this extension you can use your CMS checkout (e.g. Magento) instead of default [Vue Storefront](https://github.com/DivanteLtd/vue-storefront) checkout.
 
 This plugin requires cart and user sync with your backend CMS. 
+<center>
+<img src="./diagram.png">
+</center>
 
-<img src="./diagram.png" style="max-width: 100%">
 ## Current CMS integrations for this extension
 
 * [Magento 2](https://github.com/DivanteLtd/magento2-external-checkout)
