@@ -52,7 +52,14 @@ You can specify which storeviews should use the external checkout by adding each
 ````js
 "externalCheckout": {
   "cmsUrl" : "https://yourcmsaddress.com",
-  "stores": [ "en", "de" ]
+  "stores": {
+    "se": {
+      "cmsUrl": "https://yourcmsaddress.com"
+    },
+    "dk": {
+      "cmsUrl": "https://yourcmsaddress.com"
+    }
+  }
 }
 ````
 

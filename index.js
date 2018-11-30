@@ -10,8 +10,8 @@ export default function (app, router, store, config) {
   router.beforeEach((to, from, next) => {
     let storeCode = storeCodeFromRoute(to)
     if (config.storeViews.multistore === true) {
-      if (stores.indexOf(storeCode) > -1 && to.name === storeCode + '-checkout') {
-        window.location.replace(cmsUrl + '?token=' + store.state.user.token + '&cart=' + store.state.cart.cartServerToken)
+      if (storeCode in stores && to.name === storeCode + '-checkout') {
+        window.location.replace(stores[storeCode].cmsUrl + '?token=' + store.state.user.token + '&cart=' + store.state.cart.cartServerToken)
       } else {
         next()
       }
