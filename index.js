@@ -11,7 +11,6 @@ export default function (app, router, store, config) {
     let storeCode = storeCodeFromRoute(to)
     if (config.storeViews.multistore === true) {
       if (stores.indexOf(storeCode) > -1 && to.name === storeCode + '-checkout') {
-        console.log("redirecting to external checkout for " + storeCode)
         window.location.replace(cmsUrl + '?token=' + store.state.user.token + '&cart=' + store.state.cart.cartServerToken)
       } else {
         next()
