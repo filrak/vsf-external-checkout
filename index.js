@@ -1,11 +1,10 @@
-import { currentStoreView, storeCodeFromRoute } from '@vue-storefront/core/store/lib/multistore'
+import { storeCodeFromRoute } from '@vue-storefront/core/store/lib/multistore'
 
 const EXTENSION_KEY = 'external-checkout'
 
 export default function (app, router, store, config) {
   const cmsUrl = config.externalCheckout.cmsUrl
   const stores = config.externalCheckout.stores
-  const currentStore = currentStoreView()
 
   router.beforeEach((to, from, next) => {
     let storeCode = storeCodeFromRoute(to)
