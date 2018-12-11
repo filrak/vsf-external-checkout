@@ -46,6 +46,23 @@ export default [
 ]
 ````
 
+## How to use for a specific stores in a multistore setup
+
+You can specify which storeviews should use the external checkout by adding each store code to your `config/local.json` file.
+````js
+"externalCheckout": {
+  "cmsUrl" : "https://yourcmsaddress.com",
+  "stores": {
+    "se": {
+      "cmsUrl": "https://yourcmsaddress.com"
+    },
+    "dk": {
+      "cmsUrl": "https://yourcmsaddress.com"
+    }
+  }
+}
+````
+
 ## How to integrate with other CMS
 
 If you want to integrate this extension with your backend CMS make sure that entering `{your_CMS_url}/vue/cart/sync/token/{user-token}/cart/{cart_token}` will do the following:
