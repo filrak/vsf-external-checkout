@@ -10,7 +10,7 @@ See [live demo](https://demo-magento-checkout.vuestorefront.io/) - add something
 
 ## Current CMS integrations for this extension
 
-* [Magento 2](https://github.com/DivanteLtd/magento2-external-checkout)
+* [Magento 2](https://github.com/Vendic/magento2-external-checkout)
 
 
 ## How it works?
