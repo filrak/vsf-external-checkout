@@ -1,5 +1,7 @@
 # Vue Storefront External Checkout
 
+**IMPORTANT** This repository is no longer maintained. Please use [this](https://github.com/Vendic/magento2-external-checkout) module by vendic instead.
+
 With this extension you can use your CMS checkout (e.g. Magento) instead of default [Vue Storefront](https://github.com/DivanteLtd/vue-storefront) checkout.
 This plugin requires cart and user sync on your backend (see [integrations](https://github.com/filrak/vsf-external-checkout#current-cms-integrations-for-this-extension) )
 
